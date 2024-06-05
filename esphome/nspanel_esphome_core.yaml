@@ -26,14 +26,14 @@ external_components:
       # type: local
       # path: packages/Blackymas/components
       type: git
-      url: https://github.com/Blackymas/NSPanel_HA_Blueprint
+      url: https://github.com/Nistoras/NSPanel_HA_Blueprint
       ref: v4.3.7
     components:
       - nspanel_ha_blueprint
     refresh: 300s
   - source:
       type: git
-      url: https://github.com/Nistoras/esphome/tree/Nistoras-patch-1
+      url: https://github.com/Nistoras/esphome
       ref: nextion-v435
     components:
       - nextion  # Change this when that PR#6192 gets released (2024.5?)
